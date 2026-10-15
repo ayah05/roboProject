@@ -59,8 +59,8 @@ COMMANDS = {
     "cup": {
         "keywords": ["becher", "tasse", "trinken", "durst", "cup", "drink"],
         "object": "cup",
-        "policy": f"{HF_USER}/cup_policy",
-        "dataset": f"{HF_USER}/cup_test_20261014_200655",  # used with --replay
+        "policy": f"{HF_USER}/cup_policy_v2",
+        "dataset": f"{HF_USER}/cup_task_v2_20261015_072914",  # used with --replay
         "episode": 3,                                       # used with --replay
         "task": "Bring the cup to the person",
         "reply": "Okay, ich bringe dir den Becher.",
