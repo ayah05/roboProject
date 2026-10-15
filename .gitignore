@@ -1,0 +1,29 @@
+# Secrets
+.env
+.env.*
+
+# Python environments
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# IDE
+.idea/
+.vscode/
+
+# Model weights
+*.pt
+*.pth
+
+# Generated outputs
+outputs/
+
+# Generated detection images
+last_detection.jpg
+
+# OS
+.DS_Store
+Thumbs.db
